@@ -17,6 +17,7 @@ function endGame() {
     scoreP1.classList.add('has-text-danger');
     scoreP2.classList.add('has-text-success');
   }
+  party.screen();
   buttonP1.disabled = true;
   buttonP2.disabled = true;
 }
